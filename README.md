@@ -2,9 +2,7 @@
 The primary goal of this repository is to download Bitcoin transaction files from Bitget. Since these files are only available for individual download, we use Selenium to automate the process of interacting with the website and downloading the files. The aim is to collect comprehensive transaction data for analysis.
 
 ## Project Overview
-- **Bitget Transaction Downloader:** Automates the download of Bitcoin transaction files from Bitget, a major cryptocurrency exchange with historical data from 2018 to 2024. The automation script mimics user interactions to handle the bulk download of datasets for each year from 2021 to 2024.
-
-<br>
+The **Bitget Transaction Downloader** automates the download of Bitcoin transaction files from Bitget; a major cryptocurrency exchange with historical data from 2018 to 2024, using Selenium. The automation script mimics user interactions to handle the bulk download of datasets for each year from 2021 to 2024.
 
 # Getting Started
 
@@ -24,11 +22,10 @@ To set up the project, follow these steps:
    ```
 
 ## Usage
-Downloader can be found under the `notebooks` folder. For better management, we recommend using Jupyter Notebooks to run them.
+Downloader can be found under the `notebooks` folder. For better management, we recommend using Jupyter Notebooks to run it.
 
-<br>
-
-# Note
-1. **The primary goal of this project is to automate the download of Bitcoin transaction files. The data will not be stored in a database or any other form of persistent storage. Files are downloaded as-is, and it is the user’s responsibility to manage and organize their own data.**
-2. **The final dataset is available here: [Bitcoin Transactions History (2021 - 2024)](https://www.kaggle.com/datasets/imadallal/bitcoin-transactions-history-2021-2024)**
+># Note
+>1. **The primary goal of this project is to automate the download of Bitcoin transaction files. The collected data will not be processed within this project.**
+>2. **The files are downloaded as-is, and it is the user’s responsibility to manage and organize their own data. However, the final full dataset is available here: [Bitcoin Transactions History (2021 - 2024)](https://www.kaggle.com/datasets/imadallal/bitcoin-transactions-history-2021-2024).**
+>3. **This final full dataset (referenced above) will be processed and extracted into a *hourly price dataset*  in the project here: [Bitcoin-Dataset-Viewer-and-Preparer](https://github.com/Bitcoin-Price-Prediction-Experiments/Bitcoin-Dataset-Viewer-and-Preparer)**
 
