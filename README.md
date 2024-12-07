@@ -30,5 +30,5 @@ Downloader can be found under the `notebooks` folder. For better management, we 
 
 # Note
 1. **The primary goal of this project is to automate the download of Bitcoin transaction files. The data will not be stored in a database or any other form of persistent storage. Files are downloaded as-is, and it is the user’s responsibility to manage and organize their own data.**
-2. **The final dataset, that we prepared previously, will soon be available on Kaggle.**
+2. **The final dataset is available here: [Bitcoin Transactions History (2021 - 2024)](https://www.kaggle.com/datasets/imadallal/bitcoin-transactions-history-2021-2024)**
 
